@@ -1,0 +1,16 @@
+<html><head><style>#chat { width: 500px; height: 500px; }
+body, html { height: 100%; margin: 0; font-family: Arial, sans-serif; }
+#chat { height: 85%; overflow-y: auto; border: 1px solid #ccc; padding: 5px; }
+#input { width: calc(100% - 90px); }
+button { width: 80px; }
+#apikey { margin-bottom: 10px; }
+body { margin: 10px; }
+</style></head><body>
+<h1>Chat with AI</h1>
+<p>Enter OpenAI API Key:</p>
+<input type="text" id="apikey" placeholder="API Key"><button id="save">Save Key</button>
+<div id="chat"></div>
+<input type="text" id="input"><button id="send">Send</button>
+<button id="helloButton">Say Hello</button> <!-- Add this line -->
+<script src="popup.js"></script>
+</body></html>
